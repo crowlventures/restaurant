@@ -1,0 +1,64 @@
+
+submenu:
+  1: 
+    name: Veg
+    items:
+      1:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+      2:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+      3:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+  2: 
+    name: Veg
+    items:
+      1:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+      2:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+      3:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+  3: 
+    name: Veg
+    items:
+      1:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+      2:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+      3:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+  4: 
+    name: Veg
+    items:
+      1:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+      2:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+      3:
+        name: Aloo Bonda
+        detail: blah blah ...
+        price: Rs 50
+
+note: blah blah ...

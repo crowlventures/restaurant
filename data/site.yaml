@@ -11,9 +11,16 @@ description:
   left:  Not specified
   right:  Not specified
 
-social:
-  facebook: http://www.facebook.com
-  google_plus: http://plus.google.com
-  twitter: http://www.twitter.com
 
-copyright: Copyright not specified
+contact:
+  email: something@somewhere.com
+  phone: +91-9620220452
+  address: "#537, 11th Cross, 29th Main, Sector-1, HSR Layout"
+  address_full: "#537, 11th Cross, 29th Main, Sector-1, HSR Layout, Bangalore, India - 560102"
+  details: blah blah ...
+
+
+facebook: http://www.facebook.com
+twitter: http://www.twitter.com
+
+copyright: "&copy; Copyright 2014. All Rights Reserved."

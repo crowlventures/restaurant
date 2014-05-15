@@ -1,0 +1,28 @@
+
+<div id="contents"> <!-- start of contents --> 
+  <h2><span>Drinks</span></h2>
+  <div id="menus">
+    <ul class="main">
+
+      <% for submenu_id in data.drinks.submenu.keys %>
+      <li>
+	<h3><%= data.drinks.submenu[submenu_id].name %></h3>
+	<ul>
+	  <% for item_id in data.drinks.submenu[submenu_id].items.keys %>
+	  <li>
+	    <span class="price"><%= data.drinks.submenu[submenu_id].items[item_id].price %></span>
+	    <%= data.drinks.submenu[submenu_id].items[item_id].name %>
+	    <p><%= data.drinks.submenu[submenu_id].items[item_id].detail %></p>
+	  </li>
+	  <% end %>
+	</ul>
+      </li>
+      <% end %>
+    </ul>
+    
+    <br>
+
+    <%= data.drinks.note %>
+
+  </div>
+</div> <!-- end of contents -->
