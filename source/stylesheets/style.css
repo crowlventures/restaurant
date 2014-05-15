@@ -11,20 +11,20 @@
 }
 
 body {
-	background: #262523 url('/images/bg-body.jpg') no-repeat center top;
+	background: #262523 url('../images/bg-body.jpg') no-repeat center top;
 	color:#ffffff;
 	margin:0px;
 }
 
 #infos li.home a, #infos li.phone a, #infos li.address a,
 #footer ul.advertise li.delivery a, #footer ul.advertise li.connect a.fb, #footer ul.advertise li.connect a.twitr {
-	background: url(/images/icons.gif) no-repeat;
+	background: url(../images/icons.gif) no-repeat;
 }
 #navigation li a, #contents h2 {
-	background: url(/images/braces-left.gif) no-repeat;
+	background: url(../images/braces-left.gif) no-repeat;
 }
 #navigation li a span, #contents h2 span {
-	background: url(/images/braces-right.gif) no-repeat;
+	background: url(../images/braces-right.gif) no-repeat;
 }
 
 /*-------------------------- Header --------------------------*/
@@ -35,7 +35,7 @@ body {
 }
 #header span.signboard {
 	float: right;
-	background: url(/images/schedule.gif) no-repeat;
+	background: url(../images/schedule.gif) no-repeat;
 	display: block;
 	height: 125px;
 	width: 154px;
@@ -43,7 +43,7 @@ body {
 	z-index: 9;
 }
 #header .tagline {
-	background: url(/images/breakfast-buffet.gif) no-repeat;
+	background: url(../images/breakfast-buffet.gif) no-repeat;
 	display: inline-block;
 	height: 80px;
 	width: 462px;
@@ -87,7 +87,7 @@ body {
 }
 
 #logo {
-	background: url(/images/logo.gif) no-repeat;
+	background: url(../images/logo.gif) no-repeat;
 	display: inline-block;
 	height: 83px;
 	width: 330px;
@@ -95,7 +95,7 @@ body {
 }
 
 #navigation {
-	background: url(/images/bg-navigation.gif) no-repeat left top ;
+	background: url(../images/bg-navigation.gif) no-repeat left top ;
 	height: 32px;
 	width: 550px;
 	margin: 0px;
@@ -157,39 +157,39 @@ body {
 	display: block;
 }
 #featured li.main a {
-	background: url(/images/main.jpg) no-repeat 0 0;
+	background: url(../images/main.jpg) no-repeat 0 0;
 	height: 335px;
 	width: 540px;
 }
 #featured li.main a:hover { 
-	background: url(/images/main-hover.jpg) no-repeat 0 0;
+	background: url(../images/main-hover.jpg) no-repeat 0 0;
 }
 
 #featured li.drinks a {
-	background: url(/images/drinks.jpg) no-repeat 0 0;
+	background: url(../images/drinks.jpg) no-repeat 0 0;
 	height: 335px;
 	width: 420px;
 }
 #featured li.drinks a:hover {
-	background: url(/images/drinks-hover.jpg) no-repeat 0 0;
+	background: url(../images/drinks-hover.jpg) no-repeat 0 0;
 }
 
 #featured li.entree a {
-	background: url(/images/entree.jpg) no-repeat 0 0;
+	background: url(../images/entree.jpg) no-repeat 0 0;
 	height: 255px;
 	width: 540px;
 }
 #featured li.entree a:hover {
-	background: url(/images/entree-hover.jpg) no-repeat 0 0;
+	background: url(../images/entree-hover.jpg) no-repeat 0 0;
 }
 
 #featured li.desserts a {
-	background: url(/images/desserts.jpg) no-repeat 0 0;
+	background: url(../images/desserts.jpg) no-repeat 0 0;
 	height: 255px;
 	width: 420px;
 }
 #featured li.desserts a:hover {
-	background: url(/images/desserts-hover.jpg) no-repeat 0 0;
+	background: url(../images/desserts-hover.jpg) no-repeat 0 0;
 }
 
 #contents {
@@ -454,7 +454,7 @@ body {
 }
 #footer ul.advertise li {
 	float: left;
-	background: url(/images/braces.gif) 15px 0 no-repeat;
+	background: url(../images/braces.gif) 15px 0 no-repeat;
 	list-style-type: none;
 	height: 180px;
 	width: 210px;

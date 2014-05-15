@@ -22,12 +22,12 @@
     <div id="header"> <!-- start of header -->
       <span class="signboard"></span>
       <ul id="infos">
-	<li class="home"><a href="/">HOME</a></li>
-	<li class="phone"><a href="/contact"><%= data.site.contact.phone %></a></li>
-	<li class="address"><a href="/contact"><%= data.site.contact.address %></a></li>
+	<li class="home"><a href="">HOME</a></li>
+	<li class="phone"><a href="contact"><%= data.site.contact.phone %></a></li>
+	<li class="address"><a href="contact"><%= data.site.contact.address %></a></li>
       </ul>
       <a href="/" id="logo"></a>
-      <a href="/menu" class="tagline"></a> 
+      <a href="menu" class="tagline"></a> 
     </div> <!-- end of header -->
 	
     <%= yield %>
@@ -36,7 +36,7 @@
       <ul class="advertise">
 	<li class="delivery">
 	  <h2>Hungry? We Deliver</h2>
-	  <a href="/menu">Checkout our menu</a>
+	  <a href="menu">Checkout our menu</a>
 	</li>
 	<li class="event">
 	  <h2>Party! Party!</h2>
@@ -50,9 +50,9 @@
       </ul>
       <div>
 	<ul class="navigation">
-	  <li class="selected"><a href="/">Home</a></li>
-	  <li><a href="/about">About</a></li>
-	  <li class="last"><a href="/contact">Contact</a></li>
+	  <li class="selected"><a href="">Home</a></li>
+	  <li><a href="about">About</a></li>
+	  <li class="last"><a href="contact">Contact</a></li>
 	</ul>
 	<span><%= data.site.copyright %></span>
       </div>
