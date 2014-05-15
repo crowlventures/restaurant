@@ -7,13 +7,15 @@
     <title><%= data.site.title %></title>
     
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="../stylesheets/style.css">
+
+    <%= stylesheet_link_tag "style.css" %>
+
     <!--[if IE 7]>
-	<link rel="stylesheet" type="text/css" href="../stylesheets/ie7.css">	
-	<![endif]-->
+    <%= stylesheet_link_tag "ie7.css" %>
+    <![endif]-->
     <!--[if IE 6]>
-	<link rel="stylesheet" type="text/css" href="../stylesheets/ie6.css">		
-	<![endif]-->
+    <%= stylesheet_link_tag "ie6.css" %>
+    <![endif]-->
 
   </head>
 
